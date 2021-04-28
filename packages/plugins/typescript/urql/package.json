@@ -1,6 +1,6 @@
 {
   "name": "@enra-gmbh/graphql-codegen-typescript-urql",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "GraphQL Code Generator plugin for generating an introspection file for Urql's Schema Awareness",
   "repository": {
     "type": "git",
