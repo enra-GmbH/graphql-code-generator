@@ -3596,6 +3596,17 @@
     "@graphql-tools/load" "6.2.4"
     tslib "2.0.2"
 
+"@graphql-codegen/typescript-urql@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-urql/-/typescript-urql-2.0.6.tgz#aff376acb794a143249e6a3dcaa3e7fc90ddb408"
+  integrity sha512-6lIK8m6eowBY5/2TFxcHPe4y6EhA+z1WXvxMllq0O/BvrobGDe/XOWDdJ+1A3GkjljoniQe8F4y0uVekqyWJ0Q==
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "^1.18.5"
+    "@graphql-codegen/visitor-plugin-common" "^1.20.0"
+    auto-bind "~4.0.0"
+    change-case-all "1.0.14"
+    tslib "~2.2.0"
+
 "@graphql-tools/apollo-engine-loader@6.2.5", "@graphql-tools/apollo-engine-loader@^6":
   version "6.2.5"
   resolved "https://registry.yarnpkg.com/@graphql-tools/apollo-engine-loader/-/apollo-engine-loader-6.2.5.tgz#b9e65744f522bb9f6ca50651e5622820c4f059a8"

@@ -93,8 +93,8 @@ export const ${componentName} = (props: Omit<Urql.${operationType}Props<${generi
 
     if (operationType === 'Mutation') {
       return `
-export function use${operationName}() {
-  return Urql.use${operationType}<${operationResultType}, ${operationVariablesTypes}>(${documentVariableName});
+export function use${operationName}(client?: Urql.Client) {
+  return Urql.use${operationType}<${operationResultType}, ${operationVariablesTypes}>(${documentVariableName}, client);
 };`;
     }
 
